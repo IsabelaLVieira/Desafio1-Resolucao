@@ -1,0 +1,137 @@
+*{
+   font-family: 'Inter', sans-serif;
+   margin: 0%; 
+}
+
+/*MENU SUPERIOR*/
+#menu-superior{
+    background-color:#303030;
+    height: 475px;
+
+}
+
+#titulo-superior{
+    color: white;
+    padding-top: 206px;
+    font-size: 62px;
+    font-weight: bolder;
+    margin-left: 62px;
+}
+
+#subtitulo-superior{
+    color: white;
+    font-size: 28px;
+    padding-top: 15px;
+    margin-left: 62px;
+
+}
+
+/*MENU INFORMATIVO*/
+#menu-informativo{
+    Height: 229px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    padding-left: 50px;
+}
+
+.quantidade{
+    font-size: 40px;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.menu2atributo{
+    font-size: 20px;
+    padding-left: 60px;
+
+}
+
+/*SECAO IMAGEM*/
+#secao-imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    padding-top: 60px; 
+    Width: 1440px;
+    Height: 638px;
+}
+
+#texto-imagem{
+    flex: 1; 
+    padding-top: 250px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    column-width: 600px;
+    font-size: 24px;
+
+}
+
+#titulo-imagem{
+    font-size: 40px;
+    
+}
+
+#imagem1{
+    Width: 510px;
+    Height: 605px;
+    margin-left: 50px;
+    flex: 1;
+    padding-top: 40px; 
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    column-width: 150px;
+}
+
+/*FORMULARIO*/
+#formulario{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #303030;
+
+}
+
+#tituloformulario{
+    font-size: 32px;
+    padding-top: 50px;
+    margin: 25px;
+    color: white;
+}
+
+input{
+    font-size: 24px;
+    font-family: 'raleway';
+    color:  black, 30%;
+    Width: 508px;
+    Height: 72px;
+    background-color: #ffffff;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin: 30px;
+}
+
+button{
+    background-color: #C07212;
+    Width: 286px;
+    Height: 74px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'raleway';
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover{
+    background-color:#C07212;
+    color: #EAECE5;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #70707081;
+}
